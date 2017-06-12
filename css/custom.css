@@ -1,0 +1,107 @@
+
+
+/* --------------------------------
+
+0. Colors
+
+-------------------------------- */
+@media only screen and (max-width: 320px) {
+.headline_container h1 {
+  font-size: 3.0rem; 
+}      
+.headline_container h2 {
+  font-size: 2.0rem;
+}
+.headling_container {
+  margin-top: 0px;
+}
+}
+
+.color_graphite {
+  color: #3D3834;
+}
+
+.color_cyan {
+color: #00a1e1;
+}
+
+/* --------------------------------
+
+1. Typography
+
+-------------------------------- */
+
+/** {
+   outline: 1px solid red;
+  }*/
+
+/*@import url("//hello.myfonts.net/count/33f4f1");*/
+
+@font-face {font-family: 'RopaMixPTT-Black';src: url('../webfonts/33F4F1_1_0.eot');src: url('../webfonts/33F4F1_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/33F4F1_1_0.woff2') format('woff2'),url('../webfonts/33F4F1_1_0.woff') format('woff'),url('../webfonts/33F4F1_1_0.ttf') format('truetype'),url('../webfonts/33F4F1_1_0.svg#wf') format('svg');}
+
+:root {
+  font-size: 18px; }
+
+body {
+  font-family: 'RopaMixPTT-Black', Helvetica Neue, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #3D3834;
+}
+
+body.index-gradient {
+  background: #107a95;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'RopaMixPTT-Black', Helvetica Neue, Helvetica, sans-serif; }
+
+h1 {
+  font-size: 4.375rem; }
+
+h2 {
+  font-size: 2.688rem; }
+
+h3 {
+  font-size: 2.188rem; }
+
+h4 {
+  font-size: 1.875rem; }
+
+h5 {
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+h6 {
+  font-size: 1.125rem;
+  text-transform: uppercase; }
+
+p {
+  font-size: 1rem; }
+
+footer, footer p {
+  font-size: 0.9rem; }
+
+  /* --------------------------------
+
+3. Page Structure
+
+-------------------------------- */
+
+.headline_container {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.logo_container {
+  /*display:block;*/
+  width: 261px;
+  height: 71px;
+  background: url(../img/brandminio_logo.svg);
+  text-indent: -9999px;
+  background-size: 261px 71px;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
